@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="20" skipped="0" failures="0" errors="0" time="0.021313" timestamp="2019-12-17T09:46:50-03:00" hostname="SAO-4NMYFM2">
+<properties>
+<property name="seed" value="13490"/>
+</properties>
+<testcase classname="spec.Bank.ContaCorrente_spec" name="ContaCorrente Saque Quando o valor é positivo Então atualiza saldo" file="./spec/Bank/ContaCorrente_spec.rb" time="0.002114"></testcase>
+<testcase classname="spec.Bank.ContaCorrente_spec" name="ContaCorrente Saque Quando o valor é zero e saco 100 reais Então vejo a mensagem" file="./spec/Bank/ContaCorrente_spec.rb" time="0.000063"></testcase>
+<testcase classname="spec.Bank.ContaCorrente_spec" name="ContaCorrente Saque Quando o valor é zero e saco 100 reais E meu saldo final deve ser zero" file="./spec/Bank/ContaCorrente_spec.rb" time="0.000040"></testcase>
+<testcase classname="spec.Bank.ContaCorrente_spec" name="ContaCorrente Saque Quando o valor é 500 e tento sacar 501 Então vejo a mensagem Saldo insuficiente para saque :(" file="./spec/Bank/ContaCorrente_spec.rb" time="0.000041"></testcase>
+<testcase classname="spec.Bank.ContaCorrente_spec" name="ContaCorrente Saque Quando o valor é 500 e tento sacar 501 E meu saldo final deve ser 500" file="./spec/Bank/ContaCorrente_spec.rb" time="0.000037"></testcase>
+<testcase classname="spec.Bank.ContaCorrente_spec" name="ContaCorrente Saque Quando o valor é 1000 e faço um saque de 701 Entao vejo a mensagem Limite maximo por saque e de 700" file="./spec/Bank/ContaCorrente_spec.rb" time="0.000056"></testcase>
+<testcase classname="spec.Bank.ContaCorrente_spec" name="ContaCorrente Saque Quando o valor é 1000 e faço um saque de 701 E meu saldo final deve ser 1000" file="./spec/Bank/ContaCorrente_spec.rb" time="0.000037"></testcase>
+<testcase classname="spec.Bank.ContaPoupanca_spec" name="ContaPoupanca Saque Quando o valor é positivo Então atualiza saldo" file="./spec/Bank/ContaPoupanca_spec.rb" time="0.000042"></testcase>
+<testcase classname="spec.Bank.ContaPoupanca_spec" name="ContaPoupanca Saque Quando o valor é zero e saco 100 reais Então vejo a mensagem" file="./spec/Bank/ContaPoupanca_spec.rb" time="0.000039"></testcase>
+<testcase classname="spec.Bank.ContaPoupanca_spec" name="ContaPoupanca Saque Quando o valor é zero e saco 100 reais E meu saldo final deve ser zero" file="./spec/Bank/ContaPoupanca_spec.rb" time="0.000037"></testcase>
+<testcase classname="spec.Bank.ContaPoupanca_spec" name="ContaPoupanca Saque Quando o valor é 500 e tento sacar 501 Então vejo a mensagem Saldo insuficiente para saque :(" file="./spec/Bank/ContaPoupanca_spec.rb" time="0.000056"></testcase>
+<testcase classname="spec.Bank.ContaPoupanca_spec" name="ContaPoupanca Saque Quando o valor é 500 e tento sacar 501 E meu saldo final deve ser 500" file="./spec/Bank/ContaPoupanca_spec.rb" time="0.000037"></testcase>
+<testcase classname="spec.Bank.ContaPoupanca_spec" name="ContaPoupanca Saque Quando o valor é 1000 e faço um saque de 701 Entao vejo a mensagem Limite maximo por saque e de 500" file="./spec/Bank/ContaPoupanca_spec.rb" time="0.000038"></testcase>
+<testcase classname="spec.Bank.ContaPoupanca_spec" name="ContaPoupanca Saque Quando o valor é 1000 e faço um saque de 701 E meu saldo final deve ser 1000" file="./spec/Bank/ContaPoupanca_spec.rb" time="0.000036"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar um vingador" file="./spec/avengers_spec.rb" time="0.002679"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar uma lista de vingadores" file="./spec/avengers_spec.rb" time="0.004894"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Thor deve ser o primeiro da lista" file="./spec/avengers_spec.rb" time="0.002243"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Iron man deve ser o último da lista" file="./spec/avengers_spec.rb" time="0.000088"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Deve conter o sobrenome" file="./spec/avengers_spec.rb" time="0.002797"></testcase>
+<testcase classname="spec.exemplos_spec" name="exemplos rspec soma de valores" file="./spec/exemplos_spec.rb" time="0.000060"></testcase>
+</testsuite>
